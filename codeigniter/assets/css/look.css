@@ -1,0 +1,273 @@
+
+html{
+    background: url(../img/zombies.png);
+    z-index: -1;
+    font-family: "Arial", Arial Narrow, sans-serif;
+}
+body{
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: url(../img/header.png);
+    top: -10px;
+    left: 0px;
+    
+}
+
+
+#logo{
+    position: absolute;
+    font: "Arial", Arial Narrow, sans-serif;
+    font-size: 3pc;
+    font-weight: bold;
+    color: yellow;
+    top: 45px;
+    left: 20px;
+}
+
+    #login{
+        position: absolute;
+        font-size: 30px;
+        font-family: "Courier New", Courier;
+        font-weight: bold;
+        right: 200px;
+        top: 60px;
+        color: yellow;
+    }
+
+    #register{
+        position: absolute;
+        font-size: 30px;
+        font-family: "Courier New", Courier;
+        font-weight: bold;
+        right: 20px;
+        top: 60px;
+        color: yellow;
+    }
+
+
+
+    #login{
+        cursor: pointer;
+        position: absolute;
+        font-size: 30px;
+        font-family: "Courier New", Courier;
+        font-weight: bold;
+        right: 200px;
+        top: 60px;
+        color: yellow;
+        z-index: 5;
+    }
+
+    #register{
+        position: absolute;
+        font-size: 30px;
+        font-family: "Courier New", Courier;
+        font-weight: bold;
+        right: 20px;
+        top: 60px;
+        color: yellow;
+        z-index: 5;
+    }
+#register2{
+        position: absolute;
+        font-size: 30px;
+        font-family: "Courier New", Courier;
+        font-weight: bold;
+        right: 170px;
+        top: 60px;
+        color: yellow;
+        z-index: 5;
+    }
+
+.topic{
+    color: yellow;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#container{
+    color: white;  
+    width: 750px;
+    margin-top: 120px;
+    font-size: 14px;
+}
+
+#container2{
+    width: 1360px;
+    color: white;
+}
+
+#vid{
+    position: absolute;
+    margin-left: 840px;
+    top: 100px;    
+    height: 345px;
+}
+
+/* ------ recuperacao mail ------------- */
+#recup{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 15%;
+    border: 5px solid yellow;
+    background-color: gainsboro;
+}
+
+#formm{
+    margin-top: 114px;
+    margin-left: 122px;
+}
+
+#recuperar{
+    width: 104%;
+    margin-left: -64px;
+    margin-top: -1px;
+}
+
+#btn{
+    width: 128%;
+    margin-top: 83px;
+    margin-left: -114px;
+    background-color: black;
+    border: 1px solid yellow;
+    height: 46px;
+    color: yellow;
+}
+
+#mail{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: -79px;
+    margin-left: 39px;
+}
+
+#perg{
+    margin-top: 68px;
+    margin-left: -81px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+#info{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 25px;
+    color: white;  
+}
+
+#link{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+#recup2{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 4%;
+    border: 5px solid yellow;
+    background-color: gainsboro;
+}
+
+#formm2{
+    margin-top: 10px;
+    margin-left: 122px;
+}
+
+#recuperar2{
+    width: 104%;
+    margin-left: -64px;
+    margin-top: -8px;
+}
+
+#btn2{
+    width: 139%;
+    margin-top: 144px;
+    margin-left: -114px;
+    background-color: black;
+    border: 1px solid yellow;
+    height: 46px;
+    color: yellow;
+}
+
+#mail2{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: -168px;
+    margin-left: -16px;
+}
+
+#newpass{
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#recuppass{
+    width: 104%;
+    margin-left: -63px;
+    margin-top: 39px;
+}
+
+/*----------------------- about ---------------*/
+#about{
+    border: 1px solid yellow;
+    height: 501px;    
+    width: 1000px;
+    margin-top: 137px;
+    margin-left: 200px;
+    color: white;
+}
+
+#joao{
+    margin-left: 0;
+    height: 80%;
+    border: 1px solid red;
+    width: 333px;
+    margin-top: 62px;
+    text-align: center;
+}
+
+#pedro{
+    margin-left: 333px;
+    height:80%;
+    border: 1px solid pink;
+    width: 333px;
+    margin-top: -403px;
+    text-align: center;
+
+}
+
+
+#rafa{
+    margin-left: 666px;
+    height: 80%;
+    border: 1px solid blue;
+    margin-top: -403px;
+    width: 334px;
+    text-align: center;
+
+}
+
+#parag{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+#dados{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 300px;
+}

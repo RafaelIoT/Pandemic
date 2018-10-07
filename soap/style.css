@@ -1,0 +1,185 @@
+
+html{
+    background: url(../img/zombies.png);
+    z-index: -1;
+	font-family: "Arial", Arial Narrow, sans-serif;
+}
+body{
+    background: url(../img/zombies.png);*/
+}
+
+/* HEADER */
+#header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: url(../img/header.png);
+    top: -10px;
+    left: 0px;
+    z-index: 0;
+}
+
+#p2{
+    top: 235px;
+    height: 27px;
+    left: 7px;
+    border-radius: 5px;
+    width: 82px;
+    color: #424242;
+}
+
+#logo{
+    position: absolute;
+    font: "Arial", Arial Narrow, sans-serif;
+    font-size: 3pc;
+    font-weight: bold;
+    color: yellow;
+    top: 45px;
+    left: 20px;
+}
+
+a{
+    position: absolute;
+    top: 500px;
+    text-decoration: none;
+}
+
+#perfil, #login{
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    font-family: "Arial", Arial Narrow, sans-serif;
+    color: yellow;
+    top: 50px;
+    font-size: 2pc;
+
+
+}
+
+
+#register, #logout{
+    z-index: 1;
+    position: absolute;
+    right: 140px;
+    font: "Arial", Arial Narrow, sans-serif;
+    color: yellow;
+    top: 50px;
+    font-size: 2pc;
+}
+
+
+/* HOMEPAGE */
+
+#biohazard{
+    z-index: 5;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 300px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+/* LOGIN */
+
+#form_back{
+    background-color: #424242;
+    opacity: 0.8;
+    z-index: 5;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 6px;
+}
+
+#form_login{
+    z-index: 5;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 200px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 10px;
+}
+
+#u, #p, #e, #f, #g, #h, #i{
+    position: absolute;
+    left: 40px;
+    width: 300px;
+    margin-top: 10px;
+    
+}
+
+#e{
+    top: 240px;
+}
+
+#f{
+    top: 270px;
+}
+
+#g{
+    top: 300px;
+}
+
+#h{
+    top: 330px;
+}
+
+#i{
+    top: 360px;
+}
+
+#d{
+    position: absolute;
+    left: 40px;
+    width: 300px;
+    margin-top: 10px;    
+}
+
+#submit1{
+    position: absolute;
+    top: 110px;
+    left:40%;
+}
+
+
+#submit2{
+    position: absolute;
+    top: 400px;
+    left:40%;
+}
+
+#email_log, #user_log, #pass_log,#email_log1{
+    color: white;
+    font-size: 30px;
+    font-family: "Arial", Arial Narrow, sans-serif;
+    margin-bottom: 0;
+    margin-left: 9%;
+}
+
+#email_log1{
+    margin-top: 30%;
+}
+
+#recuperacao{
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: "Arial", Arial Narrow, sans-serif;
+    margin-left: 9%;
+    color: yellow;
+}
